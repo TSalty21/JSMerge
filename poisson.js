@@ -29,7 +29,7 @@ function setup() {
     back.fillStyle = color.toHexString();
     ctx.fillStyle = complement.toHexString();
     
-    var n = PNX.blueNoise(PNX.vector(0,0), width, height, 30, 30);
+    var n = PNX.blueNoise(PNX.vector(0,0), width, height, 25, 30);
     
     offsetX = 100*Math.random();
     offsetY = 100*Math.random();
