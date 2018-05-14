@@ -1,0 +1,66 @@
+#container {
+    width: 512px;
+    height: 512px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    width: 512px;
+    height: auto;
+}
+
+#title {
+    display: block;
+    text-align: center;
+    margin: 0;
+    width: auto;
+}
+
+#forwardButton {
+    float: right;
+    width: 20%;
+    background: #3498db;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    padding: 5px 0px 5px 0px;
+}
+
+#forwardButton:hover {
+    background: #3cb0fd;
+}
+
+#backButton {
+    float: left;
+    width: 20%;
+    background: #3498db;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    padding: 5px 0px 5px 0px;
+    visibility: hidden;
+}
+
+#backButton:hover {
+    background: #3cb0fd;
+}
+
+
